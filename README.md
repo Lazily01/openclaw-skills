@@ -6,7 +6,9 @@
 
 ## 📚 当前 Skills
 
-### 1. find-skills 🔍
+### Project Skills（项目级）
+
+#### 1. find-skills 🔍
 
 **功能：** 帮助发现和安装 agent skills
 
@@ -19,7 +21,7 @@
 
 ---
 
-### 2. tavily-search 🔎
+#### 2. tavily-search 🔎
 
 **功能：** AI 优化的网络搜索（Tavily API）
 
@@ -33,7 +35,7 @@
 
 ---
 
-### 3. proactive-agent 🦞
+#### 3. proactive-agent 🦞
 
 **功能：** 将 AI agent 从任务跟随者转变为主动合作伙伴
 
@@ -56,13 +58,71 @@
 
 ---
 
+### Global Skills（全局）
+
+#### 4. ai-image-generation 🎨
+
+**功能：** AI 图片生成（FLUX、Gemini、Grok 等 50+ 模型）
+
+**用途：**
+- 文本生图（Text-to-Image）
+- 图像处理（Inpainting、Upscaling）
+- 图片编辑
+
+**模型：** FLUX Dev LoRA、FLUX.2 Klein LoRA、Gemini 3 Pro Image、Grok Imagine、Seedream 4.5、Reve 等
+
+---
+
+#### 5. file-organizer 📁
+
+**功能：** 智能整理文件和文件夹
+
+**用途：**
+- 理解上下文，自动组织
+- 查找重复文件
+- 建议更好的组织结构
+
+---
+
+#### 6. multi-agent-workflow 🤖
+
+**功能：** 多 Agent 协作工作流指南
+
+**用途：**
+- 协调 PM、Frontend、Backend、Mobile、QA Agent
+- 复杂项目管理
+- CLI 工作流
+
+---
+
+#### 7. twitter-reader 🐦
+
+**功能：** 获取 Twitter/X 帖子内容
+
+**用途：**
+- 通过 jina.ai API 获取推文（绕过 JS 限制）
+- 支持单个帖子或批量获取
+- 获取作者、时间戳、文本、图片、回复
+
+---
+
+### Skills 总计：7 个
+- Project Skills: 3 个
+- Global Skills: 4 个
+
+---
+
 ## 📁 目录结构
 
 ```
 skills/
-├── find-skills/          # Skills 发现工具
-├── tavily-search/         # AI 优化的搜索
-└── proactive-agent/       # 主动 agent 架构
+├── find-skills/              # Skills 发现工具（Project）
+├── tavily-search/             # AI 优化的搜索（Project）
+├── proactive-agent/           # 主动 agent 架构（Project）
+├── ai-image-generation/       # AI 图片生成（Global）
+├── file-organizer/           # 文件智能整理（Global）
+├── multi-agent-workflow/      # 多 Agent 协作（Global）
+└── twitter-reader/            # Twitter/X 帖子读取（Global）
 ```
 
 ---
