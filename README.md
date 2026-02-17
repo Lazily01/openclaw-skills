@@ -1,0 +1,129 @@
+# 🛠️ OpenClaw Skills 库
+
+> 张老板的 Agent Skills 收藏
+
+---
+
+## 📚 当前 Skills
+
+### 1. find-skills 🔍
+
+**功能：** 帮助发现和安装 agent skills
+
+**用途：**
+- 搜索现有 skills（`npx skills find <query>`）
+- 安装新 skills（`npx skills add <package>`）
+- 检查更新（`npx skills check`）
+
+**技能来源：** https://skills.sh/
+
+---
+
+### 2. tavily-search 🔎
+
+**功能：** AI 优化的网络搜索（Tavily API）
+
+**用途：**
+- 网络搜索（返回简洁、相关的内容）
+- URL 内容提取
+- 新闻搜索
+- 深度研究模式
+
+**API Key：** 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
+
+---
+
+### 3. proactive-agent 🦞
+
+**功能：** 将 AI agent 从任务跟随者转变为主动合作伙伴
+
+**版本：** v3.1.0
+
+**核心特性：**
+
+#### 三大支柱
+- **Proactive（主动）** - 预测需求，无需询问
+- **Persistent（持久）** - WAL Protocol、Working Buffer、上下文压缩恢复
+- **Self-Improving（自改进）** - 自愈、 relentless resourcefulness
+
+#### 核心协议
+- **WAL Protocol** - Write-Ahead Logging，响应前记录重要信息
+- **Working Buffer** - 危险区记录交换内容
+- **Compaction Recovery** - 上下文丢失后逐步恢复
+- **Heartbeat System** - 定期健康检查
+
+**作者：** Hal Labs (Part of the Hal Stack)
+
+---
+
+## 📁 目录结构
+
+```
+skills/
+├── find-skills/          # Skills 发现工具
+├── tavily-search/         # AI 优化的搜索
+└── proactive-agent/       # 主动 agent 架构
+```
+
+---
+
+## 🚀 使用方法
+
+### 安装新 Skill
+
+```bash
+npx skills find <query>      # 搜索 skill
+npx skills add <package>     # 安装 skill
+```
+
+### 更新所有 Skills
+
+```bash
+npx skills update
+```
+
+---
+
+## ⚙️ 配置
+
+### Tavily Search
+
+需要设置环境变量：
+```bash
+export TAVILY_API_KEY="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"
+```
+
+---
+
+## 📝 维护说明
+
+### 添加新 Skill
+
+1. 将 skill 放到 `skills/` 目录下
+2. 提交并推送到 GitHub
+3. 在本 README 中添加说明
+
+### 更新 Skill
+
+1. 修改 skill 文件
+2. 提交并推送
+3. 更新 README 中的版本信息
+
+### 删除 Skill
+
+1. 删除 skill 目录
+2. 提交并推送
+3. 从 README 中移除说明
+
+---
+
+## 🔗 相关资源
+
+- [OpenClaw 文档](https://docs.openclaw.ai)
+- [Skills Hub](https://skills.sh/)
+- [Proactive Agent 文档](https://github.com/openclaw/skills/tree/main/proactive-agent)
+
+---
+
+**维护者：** 张老板 (Lazily01)
+**最后更新：** 2026-02-17
