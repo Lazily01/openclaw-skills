@@ -1,6 +1,6 @@
 # Claw's Skills Library
 
-个人技能库，包含 13 个 Skills。
+个人技能库，包含 15 个 Skills。
 
 ## 分类
 
@@ -22,6 +22,8 @@
 | [doubao-image-generation](./doubao-image-generation) | 豆包 AI 生图（2K-4K，去水印） | "豆包生图"、"画个图" |
 | [podcast-skill](./podcast-skill) | 文本转播客音频（edge-tts） | "生成播客"、"朗读" |
 | [twitter-reader](./twitter-reader) | Twitter/X 帖子读取 | "读这条推文" |
+| [bird](./bird) | Twitter/X CLI（读取、搜索、发推） | "bird"、"发推" |
+| [xhs-note-creator](./xhs-note-creator) | 小红书笔记创作（内容+图片+发布） | "小红书笔记"、"写小红书" |
 
 ### 🤝 协作类 (Workflow)
 
@@ -39,9 +41,9 @@
 
 ## 统计
 
-- **总计：** 13 个 Skills
+- **总计：** 15 个 Skills
 - **工具类：** 5 个
-- **内容类：** 4 个
+- **内容类：** 6 个
 - **协作类：** 2 个
 - **业务类：** 2 个
 
@@ -55,10 +57,20 @@ git clone git@github.com:Lazily01/openclaw-skills.git
 cp -r openclaw-skills/* ~/.openclaw/workspace/skills/
 ```
 
+## 来源仓库
+
+| 仓库 | 说明 |
+|------|------|
+| [openclaw-skills](https://github.com/Lazily01/openclaw-skills) | 主库（本仓库） |
+| [openclaw-bird-skill](https://github.com/Lazily01/openclaw-bird-skill) | Twitter/X CLI → 已合并到 bird |
+| [Auto-Redbook-Skills](https://github.com/Lazily01/Auto-Redbook-Skills) | 小红书创作 → 已合并到 xhs-note-creator |
+
 ## 更新日志
 
 ### 2026-03-06
-- 恢复 ai-image-generation（通用 AI 生图，50+ 模型）
+- 合并 bird skill（Twitter/X CLI）
+- 合并 xhs-note-creator（小红书笔记创作）
+- 恢复 ai-image-generation（通用 AI 生图）
 - 恢复 tavily-search（AI 优化搜索）
 - 新增 hr-skill（简历筛选）
 - 新增 monitor-skill（网页监控）
