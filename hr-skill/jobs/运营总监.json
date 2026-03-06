@@ -1,0 +1,17 @@
+{
+  "title": "运营总监",
+  "required_experience": 3,
+  "required_education": "本科",
+  "required_skills": [
+    "运营管理",
+    "团队管理",
+    "数据分析",
+    "用户增长"
+  ],
+  "bonus_skills": [
+    "互联网经验",
+    "从0到1经验",
+    "成功案例"
+  ],
+  "description": "负责公司整体运营战略，搭建和管理运营团队，负责用户增长、留存和转化，数据分析和运营优化。"
+}

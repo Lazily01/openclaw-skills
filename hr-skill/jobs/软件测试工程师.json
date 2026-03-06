@@ -1,0 +1,18 @@
+{
+  "title": "软件测试工程师",
+  "required_experience": 3,
+  "required_education": "本科",
+  "required_skills": [
+    "软件测试",
+    "自动化测试",
+    "Selenium",
+    "pytest"
+  ],
+  "bonus_skills": [
+    "性能测试",
+    "CI/CD",
+    "Python",
+    "Java"
+  ],
+  "description": "负责软件功能测试、自动化测试，编写测试用例和测试报告，协助开发定位问题。"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "podcast-skill",
+  "version": "1.0.0",
+  "description": "将文本转换为自然语音播客音频，支持多种中文语音和邮件发送",
+  "triggers": [
+    "生成播客",
+    "转成音频",
+    "朗读",
+    "TTS",
+    "语音合成",
+    "念给我听"
+  ],
+  "author": "Claw",
+  "created": "2026-03-06",
+  "scripts": {
+    "generate": "scripts/generate_podcast.py"
+  },
+  "dependencies": [
+    "edge-tts"
+  ],
+  "config": {
+    "default_voice": "xiaoxiao",
+    "auto_email": false,
+    "config_file": "~/.podcast-skill/config.json"
+  },
+  "note": "邮箱信息需要用户自行配置，不提供默认值"
+}

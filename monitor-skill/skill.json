@@ -1,0 +1,23 @@
+{
+  "name": "monitor-skill",
+  "version": "1.0.0",
+  "description": "网页监控检查工具，支持可用性检测、价格提取、关键词检测、内容变化追踪",
+  "triggers": [
+    "监控网页",
+    "检查网站",
+    "网页能访问吗",
+    "这个商品多少钱",
+    "关键词检测",
+    "内容变化"
+  ],
+  "author": "Claw",
+  "created": "2026-03-06",
+  "scripts": {
+    "monitor": "scripts/monitor.py"
+  },
+  "dependencies": [],
+  "config": {
+    "config_file": "~/.monitor-skill/config.json",
+    "data_dir": "~/.monitor-skill/data/"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "hr-skill",
+  "version": "1.0.0",
+  "description": "智能简历筛选，支持 LLM 解析和岗位匹配",
+  "triggers": [
+    "筛选简历",
+    "解析简历",
+    "简历匹配",
+    "候选人筛选",
+    "HR 筛选",
+    "招人筛选"
+  ],
+  "author": "Claw",
+  "created": "2026-03-06",
+  "scripts": {
+    "screener": "scripts/resume_screener.py"
+  },
+  "dependencies": [
+    "pymupdf",
+    "python-docx",
+    "requests"
+  ],
+  "config": {
+    "config_file": "~/.hr-skill/config.json",
+    "jobs_dir": "jobs/"
+  },
+  "modes": {
+    "ai_collaboration": "通过 OpenClaw 调用，AI 使用内置能力解析",
+    "standalone": "配置 API 后独立运行"
+  }
+}
